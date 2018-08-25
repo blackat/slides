@@ -1,0 +1,23 @@
+.angular-logo {
+    font-size: 3em;
+}
+
+.text-highlight {
+    color:#74ede5;
+    font-style: italic;
+}
+
+.reveal section img { 
+    background:none; 
+    border:none; 
+    box-shadow:none; 
+}
+
+.reveal ul {
+    display: block;
+    text-align: left;
+}
+
+th {
+    color: #74ede5;
+}
