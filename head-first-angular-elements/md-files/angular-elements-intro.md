@@ -24,6 +24,8 @@ just a note
 [web technologies]: https://developer.mozilla.org/en-US/docs/Web
 
 
-## Extend HTML Tag Library
+## Registration at Glance
 
-<div class="tweet" data-src="https://twitter.com/julienrenaux/status/957985488320843776?ref_src=twsrc%5Etfw"></div>
+<img src="images/custom-element-sequence.png" alt="Custom Element at glance">
+
+[angular.io](https://angular.io/guide/elements)

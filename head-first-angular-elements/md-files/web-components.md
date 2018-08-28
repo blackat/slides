@@ -1,6 +1,6 @@
 ## Web Components v1
 
-**Web components** are a set of <span class="text-highlight">Web Platform APIs</span> to create new custom, reusable, encapsulated HTML tags that can be used everywhere.
+A set of <span class="text-highlight">Web Platform APIs</span> to create new custom, reusable, encapsulated HTML tags that can be used everywhere.
 
 ```html
 <!doctype html>
@@ -15,14 +15,14 @@
 ```
 
 
-## 4 Technologies
+## [Web Components][web components] - Four Specifications
 
 - <span class="text-highlight">**Custom Elements:**</span> design and use new DOM elements.
-- <span class="text-highlight">**Shodow DOM:**</span> encapsulated style and markup in web components, like a scoped subtree inside the Custom Element.
+- <span class="text-highlight">**Shadow DOM:**</span> encapsulated style and markup in web components, like a scoped subtree inside the Custom Element.
 - <span class="text-highlight">**HTML templates:**</span> HTML template element.
 - <span class="text-highlight">**HTML Imports:**</span> include and reuse HTML documents.
 
-[web components]:https://developer.mozilla.org/en-US/docs/Web/Web_Components#Reference
+[web components]:https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 
 ## Custom Elements Demo
@@ -34,6 +34,19 @@
 
 <img src="images/custom-element-full.png" alt="Simple Custom Element implementation" width="70%"/>
 -->
+
+
+## Shadow DOM
+
+```javascript
+const shadowRoot = this.attachShadow({mode: 'open'});
+```
+
+Attaches a shadow DOM tree to the specified element and returns a reference to its `ShadowRoot`:
+
+- root node of a DOM subtree rendered separately from a document's main DOM tree
+- `open`: JavaScript can access internal features.
+
 
 ## Attributes: for data in
 

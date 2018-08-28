@@ -22,7 +22,7 @@ ng add @angular/elements --project=angular-geometry-elements
 ## @Component - the detail
 
 - `ViewEncapulation.native` to use the real Shadow DOM if natively available.
-- `bootstrap`renamed to `entryComponents` in the `app.module.ts`
+- `bootstrap` renamed to `entryComponents` in the `app.module.ts`
 - the selector won't be used
 
 
@@ -41,6 +41,13 @@ constructor(private injector: Injector) {
 
 - returns a special class that can be used with the Custom Element Web API to define a new custom element
 - register the Angular Component as Custom Element.
+
+
+## Creation at Glance
+
+<img src="images/create-element-sequence.png" alt="How to create a Custom Element in Angular">
+
+[angular.io](https://angular.io/guide/elements)
 
 
 ## Build and Pack 1
