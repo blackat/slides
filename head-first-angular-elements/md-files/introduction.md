@@ -11,13 +11,9 @@ Modern <span class="text-highlight">Rich Internet Applications</span> (**RIA**) 
 
 ## What is a Component
 
-1) An <span class="text-highlight">extension of the HTML tag library</span> that makes the Browser vocabulary widen:
+1) An <span class="text-highlight">extension of the HTML tag library</span> that makes the Browser vocabulary widen: `input`, `textarea`, `table`
 
-- `input`, `textarea`, `table`, etc
-
-2) <span class="text-highlight">Custom, reusable encapsulated tag</span> that can be used in web pages and web apps:
-
-- `beautify-text`, `emoji-rain`, etc
+2) <span class="text-highlight">Custom, reusable encapsulated tag</span> that can be used in web pages and web apps: `beautify-text`, `emoji-rain`
 
 Note:
 - show the website webcomponent.org and the example of the emoji
