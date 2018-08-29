@@ -8,7 +8,7 @@
 	<title>Head First Angular Elements</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/black.css">
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/monokai-sublime.css">
@@ -98,6 +98,16 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
+			transition: 'fade',
+
+			menu: {
+				themes: true,
+				themesPath: 'css/theme/',
+				transitions: true,
+				markers: true,
+				custom: false
+			},
+
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
@@ -105,7 +115,7 @@
 				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
 				{ src: 'plugin/tweet/embed-tweet.js' },
 				{ src: 'plugin/zoom-js/zoom.js', async: true },
-				{ src: 'plugin/reveal.js-menu/menu.js' }
+				{ src: 'plugin/menu/menu.js', async: true}
 			]
 		});
 	</script>
