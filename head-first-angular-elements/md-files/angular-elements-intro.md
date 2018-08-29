@@ -2,9 +2,9 @@
 
 **Angular Elements** <span class="text-highlight">library</span> provides a way to write custom components that can be used <span class="text-highlight">everywhere</span> without any Angular knowledge:
 - CMS;
-- HTML and JavaScript;
+- HTML and Vanilla JavaScript;
 - React, Vue, etc;
-- legacy AngularJS application instead of the ngUpdate.
+- legacy AngularJS application instead of the `ngUpdate`.
 
 Note:
 just a note

@@ -21,3 +21,28 @@
 th {
     color: #74ede5;
 }
+
+p > code, td > code, li > code {
+    color: white;
+    font-size: 70% !important;
+    letter-spacing: 0;
+    padding: 2px 0 !important;
+    background-color: lightslategrey;
+    border-radius: 4px;
+}
+
+span.emoji-steam-face::before {
+    content: "😤";
+}
+
+span.emoji-angry-face::before {
+    content: "🤬";
+}
+
+span.emoji-rocket::before {
+    content: "🚀";
+}
+
+.emoji-3-font-size {
+    font-size: 3em;
+}

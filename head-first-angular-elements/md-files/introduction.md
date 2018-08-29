@@ -19,14 +19,18 @@ Modern <span class="text-highlight">Rich Internet Applications</span> (**RIA**) 
 
 - `beautify-text`, `emoji-rain`, etc
 
+Note:
+- show the website webcomponent.org and the example of the emoji
 
 
 ## Extend HTML Tag Library
 
 <div class="tweet" data-src="https://twitter.com/julienrenaux/status/957985488320843776?ref_src=twsrc%5Etfw"></div>
 
+Note:
+- each framework has its own way to implement custom elements
 
 
-## The Issue
+## The Challenge <span class="emoji-rocket" />
 
 Define new HTML elements in a <span class="text-highlight">framework-agnostic way</span> *based on web standards*.

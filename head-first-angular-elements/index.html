@@ -79,7 +79,12 @@
 			</section>
 
 			<!-- SLIDE 7 -->
-			<section data-markdown="md-files/considerations.md" data-separator="^\n---\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"
+			<section data-markdown="md-files/typings.md" data-separator="^\n---\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"
+			 	data-charset="iso-8859-15">
+			</section>
+
+			<!-- SLIDE 8 -->
+			<section data-markdown="md-files/conclusions.md" data-separator="^\n---\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"
 			 	data-charset="iso-8859-15">
 			</section>
 		</div>
@@ -99,7 +104,8 @@
 				{ src: 'plugin/notes/notes.js', async: true },
 				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
 				{ src: 'plugin/tweet/embed-tweet.js' },
-				{ src: 'plugin/zoom-js/zoom.js', async: true }
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'node_modules/reveal.js-menu/menu.js' }
 			]
 		});
 	</script>

@@ -15,7 +15,7 @@ A set of <span class="text-highlight">Web Platform APIs</span> to create new cus
 ```
 
 
-## [Web Components][web components] - Four Specifications
+## [Web Components][web components] Specs
 
 - <span class="text-highlight">**Custom Elements:**</span> design and use new DOM elements.
 - <span class="text-highlight">**Shadow DOM:**</span> encapsulated style and markup in web components, like a scoped subtree inside the Custom Element.
@@ -42,10 +42,10 @@ A set of <span class="text-highlight">Web Platform APIs</span> to create new cus
 const shadowRoot = this.attachShadow({mode: 'open'});
 ```
 
-Attaches a shadow DOM tree to the specified element and returns a reference to its `ShadowRoot`:
+Attaches a shadow DOM tree to the specified element and returns a reference to its `ShadowRoot`
 
 - root node of a DOM subtree rendered separately from a document's main DOM tree
-- `open`: JavaScript can access internal features.
+- `open` JavaScript can access internal features.
 
 
 ## Attributes: for data in

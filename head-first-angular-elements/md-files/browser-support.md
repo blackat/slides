@@ -10,9 +10,11 @@ Native browser support for Custom Elements has been not fully implemented everyw
 
 
 ## IE 11
-<img src="images/ie11.jpg" alt="Internet Explorer 11" width="30%"/>
+<img src="images/ie11.jpg" alt="Internet Explorer 11" width="20%"/>
 
-?
+- `"target": "es5"`
+- `encapsulation: ViewEncapsulation.Native` Shadow DOM polyfill required
+- `"document-register-element": "1.8.1"`
 
 
 ## Web Components Polyfills
