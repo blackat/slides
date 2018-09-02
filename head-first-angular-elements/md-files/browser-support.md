@@ -6,7 +6,12 @@ Native browser support for Custom Elements has been not fully implemented everyw
 - [Chrome 54](https://www.chromestatus.com/features/4696261944934400) has Custom Elements v1;
 - [Safari 10.1](https://webkit.org/status/#feature-custom-elements) has Custom Elements v1;
 - [Edge](https://twitter.com/AaronGustafson/status/717028669948977153) has begun prototyping;
-- [Mozilla](https://bugzilla.mozilla.org/show_bug.cgi?id=889230) has an open bug to implement;
+- [Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=889230) target is v63;
+
+
+## Latest News (29/08/18)
+
+<img src="images/browser-support.jpeg">
 
 
 ## IE 11

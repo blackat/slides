@@ -29,3 +29,7 @@ just a note
 <img src="images/custom-element-sequence.png" alt="Custom Element at glance">
 
 [angular.io](https://angular.io/guide/elements)
+
+Note:
+- in the directive world, AngularJS renders the custom component
+- in the custom elements world must be the browser, register and use
