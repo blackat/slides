@@ -7,9 +7,17 @@
 - POM (Project Object Model)
 
 
+## Reactor
+
+- Entity handling multi-module projects:
+    - collect the available modules
+    - sort them in the correct build order 
+    - build them one by one
+
+
 ## Build Lifecycles
 
-It is a list of **pre-defined phases** to give order to **goal** execution.
+It is a list of pre-defined <span class="text-highlight">**phases**</span> to give order to <span class="text-highlight">**goal**</span> execution.
 
 ```bash
  1  validate
@@ -42,6 +50,8 @@ mvn clean package -Pprofile-ambulance
 mvn test -Pjacoco-coverage
 ```
 
+Running a phase causes the execution of all the associated goals.
+
 
 ## Plug-ins
 
@@ -51,7 +61,7 @@ mvn test -Pjacoco-coverage
     - `mvn [plugin-name]:[goal-name]`
 - Goals can be associated with phases of the lifecycle:
 
-```bash
+```xml
 <execution>
     <id>jacoco-site</id>
     <phase>package</phase>
@@ -67,25 +77,28 @@ mvn test -Pjacoco-coverage
 - `.m2` local repo
 - remote repo (Nexus)
 - both store artifacts: `groupId:artifactId:version`
-- Snapshot
-    - instable version, nighly built, under development, **latest build**, **not release yet**
-    - not allowed in a release, can get frequent updates
-        - `maven-metadata-local.xml` tells which is the latest snapshot
-        - `<updatePolicy>`: always, daily, never
 
 
-## SNAPSHOT vs. Stable
+## SNAPSHOT
+
+- instable version, nighly built, under development, <span class="text-highlight">**latest build**</span>, <span class="text-highlight">**not release yet**</span>
+- not allowed in a release, can get frequent updates
+    - `maven-metadata-local.xml` tells which is the latest snapshot
+    - `<updatePolicy>` always, daily (default), never
+
+
+## Dependency Resolution
 
 When an application is built:
-- **stable:** maven searches for dependencies in the local repo, if stable version not found, it searches in the remote one and copies it into the local one.
-- **-SNAPSHOT:** version is not stable, maven searches a newer version in the remote repo once a day
+- <span class="text-highlight">**stable:**</span> maven searches for dependencies in the local repo, if stable version not found, it searches in the remote one and copies it into the local one.
+- <span class="text-highlight">**SNAPSHOT:**</span> version is not stable, maven searches a newer version in the remote repo once a day
     - `foo-1.0-20110506.110000-1.jar` artifact of the 06/05/2011 at 11:00:00
 
 
 
 ## SNAPSHOT Configuration
 
-```bash
+```xml
 <repository>
     <id>foo-repository</id>
     <url>...</url>
@@ -97,6 +110,15 @@ When an application is built:
 ```
 
 
-## Continuos Integration (CI)
+## Continuous Integration (CI)
 
-> practice of merging all developer working copies to a shared mainline several times a day
+> practice of integrating all developer working code to a shared mainline (<span class="text-highlight">**trunk**</span>) several times a day
+
+- detect problems fast
+- locate problems easier
+
+
+## Continuous...
+
+- <span class="text-highlight">Delivery:</span> codebase is always deployable, go to production in one click.
+- <span class="text-highlight">Deployment</span> everytime the CI build passes, changes are automatically pushed to production.
