@@ -46,3 +46,7 @@ span.emoji-rocket::before {
 .emoji-3-font-size {
     font-size: 3em;
 }
+
+.main-icon {
+    font-size: 1.5em;
+}
