@@ -1,6 +1,6 @@
 ## Tips
 
-- `mvn clean install` usually run only be CI
+- `mvn clean install` usually run only in CI
 - prefer module specific builds
 - clean `.m2`
 - keep modules smalls to avoid
