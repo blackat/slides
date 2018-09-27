@@ -6,13 +6,11 @@
     - `-pl` build only specified modules
     - `-am` build only modules the target depends on
 - `-offline` go offline, no new snapshot, less network traffic
-- prefer module specific builds
-- clean `.m2`
+- clean `.m2` from time to time to free up some space
 - keep modules smalls to avoid
     - huge compilation time
     - coupling
     - circular dependencies
-- latest version of maven
 
 
 ## FAQ Session
