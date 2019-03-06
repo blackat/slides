@@ -2,11 +2,6 @@
     font-size: 3em;
 }
 
-.text-highlight {
-    color:#74ede5;
-    font-style: italic;
-}
-
 .reveal section img { 
     background:none; 
     border:none; 
@@ -53,4 +48,29 @@ span.emoji-rocket::before {
 
 .red-heart {
     color: magenta;
+}
+
+.text-highlight {
+    color:#74ede5;
+    font-style: italic;
+}
+
+.text-highlight-yellow {
+    color: #FFCC00;
+}
+
+.text-highlight-orange {
+    color: #ff5733;
+}
+
+.text-highlight-red {
+    color: #fd4445;
+}
+
+.text-highlight-violet {
+    color: #900c3f;
+}
+
+.text-highlight-violet-dark {
+    color: #581845;
 }
