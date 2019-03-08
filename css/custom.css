@@ -1,3 +1,9 @@
+html, body {
+    background-color: #252a34;
+}
+
+/* Logos */
+
 .angular-logo {
     font-size: 3em;
 }
@@ -17,6 +23,7 @@ th {
     color: #74ede5;
 }
 
+/*
 p > code, td > code, li > code {
     color: white;
     font-size: 70% !important;
@@ -25,6 +32,33 @@ p > code, td > code, li > code {
     background-color: lightslategrey;
     border-radius: 4px;
 }
+*/
+
+/* Code */
+
+.reveal pre > code {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8em;
+    background-color: #222630;
+}
+
+.reveal code {
+    background-color: #222630;
+    max-width: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+    padding: 0 0.5em;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3),0 1px 0 rgba(255,255,255,0.1),0 -1px 0 rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 0 rgba(0,0,0,0.5);
+}
+
+/* Emoji */
 
 span.emoji-steam-face::before {
     content: "😤";
@@ -42,6 +76,8 @@ span.emoji-rocket::before {
     font-size: 3em;
 }
 
+/* Author, first page */
+
 .main-icon {
     font-size: 1.5em;
 }
@@ -50,8 +86,10 @@ span.emoji-rocket::before {
     color: magenta;
 }
 
+/* Text highlight */
+
 .text-highlight {
-    color:#74ede5;
+    color:#FFCC00;
     font-style: italic;
 }
 

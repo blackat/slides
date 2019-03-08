@@ -9,7 +9,7 @@ Tests are divided in 3 categories:
 ## Unit tests
 
 - Focus on a <span class="text-highlight">**single class**</span> by replacing real collaborators with <span class="text-highlight-red">*test doubles*</span>.
-- Isolated, very fast to execute and small.
+- <span class="text-highlight">Isolated</span>, very fast to execute and small.
 
 
 ## Integration tests

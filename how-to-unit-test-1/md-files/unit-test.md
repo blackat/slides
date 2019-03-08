@@ -1,27 +1,27 @@
 # Unit Test
 
-- <span class="text-highlight-orange">**Scope.**</span> Single class.
-- <span class="text-highlight-orange">**Collaborators.**</span> Substituted with <span class="text-highlight-red">tests doubles.</span> (fake replacements)
+- <span class="text-highlight">**Scope.**</span> Single class.
+- <span class="text-highlight">**Collaborators.**</span> Substituted with <span class="text-highlight-red">*tests doubles*</span> (fake replacements).
 
 
 
 # Goal
 
-- <span class="text-highlight-orange">**Idea.**</span> Make sure the class you are working on right now works correctly.
-- <span class="text-highlight-orange">**Test.**</span> Verify the <span class="text-highlight-yellow">expected behavior</span> of the class.
+- <span class="text-highlight">**Idea.**</span> Make sure the class you are working on right now works correctly.
+- <span class="text-highlight">**Test.**</span> Verify the <span class="text-highlight-red">*expected behavior*</span> of the class.
 
 
 # Test in isolation
 
-- <span class="text-highlight-orange">**Forget about everything else.**</span> Focus on the <span class="text-highlight-yellow">single class</span> which must work in any environment (no database, no web service, no other classes).
-- <span class="text-highlight-orange">**Test fixture.**</span> <span class="text-highlight-yellow">Well known and fixed environment</span> so that a test result is repeatable.
+- <span class="text-highlight">**Forget about everything else.**</span> Focus on the <span class="text-highlight-red">*single class*</span> which must work in any environment (no database, no web service, no other classes).
+- <span class="text-highlight">**Test fixture.**</span> <span class="text-highlight-red">*Well known and fixed environment*</span> so that a test result is repeatable.
 
 
 # Benefits
 
-- <span class="text-highlight-orange">Great accuracy.</span> <span class="text-highlight-red">Documentation</span> of the single class code, more reliable than textual description.
-- <span class="text-highlight-orange">Run extremely fast.</span> Immediate feedback on the <span class="text-highlight-yellow">code quality</span>, bugs are immediately blocked.
-- <span class="text-highlight-orange">Easy refactor.</span> Refactor your code with no panic, <span class="text-highlight-yellow">the class is covered by unit tests</span>.
+- <span class="text-highlight">**Great accuracy.**</span> <span class="text-highlight-red">*Documentation*</span> of the single class code, more reliable than textual description.
+- <span class="text-highlight">**Run extremely fast.**</span> Immediate feedback on the <span class="text-highlight-red">*code quality*</span>, bugs are immediately blocked.
+- <span class="text-highlight">**Easy refactor.**</span> Refactor your code with no panic, <span class="text-highlight-red">*the class is covered by unit tests*</span>.
 
 
 # Interactions
