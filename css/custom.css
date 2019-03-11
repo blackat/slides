@@ -39,11 +39,11 @@ p > code, td > code, li > code {
 .reveal pre > code {
     font-family: 'Fira Code', monospace;
     font-size: 0.8em;
-    background-color: #222630;
+    background-color: #1d2028;
 }
 
 .reveal code {
-    background-color: #222630;
+    background-color: #1d2028;
     max-width: 100%;
     overflow-x: auto;
     vertical-align: middle;
@@ -102,7 +102,7 @@ span.emoji-rocket::before {
 }
 
 .text-highlight-red {
-    color: #fd4445;
+    color: #c00;
 }
 
 .text-highlight-violet {

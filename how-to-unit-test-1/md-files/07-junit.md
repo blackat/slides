@@ -56,7 +56,7 @@ public class CatPersistTest {
 
 ## Test with inmemory database
 
-```
+```bash
 INFO [main] (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
 INFO [main] (DriverManagerConnectionProviderImpl.java:172) - HHH000046: Connection properties: {user=sa}
 INFO [main] (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
