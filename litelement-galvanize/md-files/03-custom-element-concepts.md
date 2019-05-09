@@ -64,7 +64,8 @@ return html`
 
 - Based on defined `properties` and their types.
 - Custom deserializers can be written.
-- Better than pass just a string (HTML5 attributes).
+- Better than pass just a string (HTML5 attributes):
+  - `"[{title: \"easy\", value: \"2\"}]";`
 
 ```html
 <lit-row-block
