@@ -11,10 +11,10 @@ Easy build custom HTML elements and reuse them across projects.
 - ES6 modules.
 - [Polymer Elements](https://www.webcomponents.org/author/PolymerElements) coverted to ES Modules.
 - `PolymerElement` is the base class providing core API features including:
-  - templating
-  - data-binding
+  - templating and data-binding
   - attribute deserialization
   - property change observation
+- Helper elements: `dom-repeat`.
 
 <--->
 
