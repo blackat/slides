@@ -1,26 +1,27 @@
-html, body {
-    background-color: #252a34;
+html,
+body {
+  background-color: #252a34;
 }
 
 /* Logos */
 
 .angular-logo {
-    font-size: 3em;
+  font-size: 3em;
 }
 
-.reveal section img { 
-    background:none; 
-    border:none; 
-    box-shadow:none; 
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
 }
 
 .reveal ul {
-    display: block;
-    text-align: left;
+  display: block;
+  text-align: left;
 }
 
 th {
-    color: #74ede5;
+  color: #74ede5;
 }
 
 /*
@@ -37,78 +38,95 @@ p > code, td > code, li > code {
 /* Code */
 
 .reveal pre > code {
-    font-family: 'Fira Code', monospace;
-    font-size: 0.8em;
-    background-color: #1d2028;
+  font-family: "Fira Code", monospace;
+  font-size: 0.8em;
+  background-color: #1d2028;
 }
 
 .reveal code {
-    background-color: #1d2028;
-    max-width: 100%;
-    overflow-x: auto;
-    vertical-align: middle;
-    padding: 0 0.5em;
-    font-family: 'Fira Code', monospace;
-    font-size: 0.8em;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 0 rgba(0,0,0,0.5);
-    -moz-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3),0 1px 0 rgba(255,255,255,0.1),0 -1px 0 rgba(0,0,0,0.5);
-    box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 0 rgba(0,0,0,0.5);
+  background-color: #1d2028;
+  max-width: 100%;
+  overflow-x: auto;
+  vertical-align: middle;
+  padding: 0 0.5em;
+  font-family: "Fira Code", monospace;
+  font-size: 0.8em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Emoji */
 
 span.emoji-steam-face::before {
-    content: "😤";
+  content: "😤";
 }
 
 span.emoji-angry-face::before {
-    content: "🤬";
+  content: "🤬";
 }
 
 span.emoji-rocket::before {
-    content: "🚀";
+  content: "🚀";
 }
 
 .emoji-3-font-size {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 /* Author, first page */
 
 .main-icon {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .red-heart {
-    color: magenta;
+  color: magenta;
 }
 
 /* Text highlight */
 
 .text-highlight {
-    color:#FFCC00;
-    font-style: italic;
+  color: #ffcc00;
+  font-style: italic;
 }
 
 .text-highlight-yellow {
-    color: #FFCC00;
+  color: #ffcc00;
 }
 
 .text-highlight-orange {
-    color: #ff5733;
+  color: #ff5733;
 }
 
 .text-highlight-red {
-    color: #c00;
+  color: #c00;
 }
 
 .text-highlight-violet {
-    color: #900c3f;
+  color: #900c3f;
 }
 
 .text-highlight-violet-dark {
-    color: #581845;
+  color: #581845;
+}
+
+span.emoji-thanks::before {
+  content: "🙏";
+}
+
+span.emoji-big-thanks {
+  font-size: 40px;
+}
+
+span.emoji-big-thanks::before {
+  content: "🙏";
+  font-size: 100px;
+  display: block;
 }
