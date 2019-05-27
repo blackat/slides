@@ -2,15 +2,16 @@
 
 ## Testing
 
-- [How to unit test](https://blackat.github.io/slides/sl-how-to-unit-test-1)
+- <a href="https://blackat.github.io/slides/sl-how-to-unit-test-1" target="_blank">How to unit test</a>
 
 ## Web Development
 
-- [Head first Angular Elements](https://blackat.github.io/slides/sl-head-first-angular-elements/index.html)
-- [LitElement introduction](https://blackat.github.io/slides/sl-litelement-galvanize)
-- [Polymer introduction](https://blackat.github.io/slides/sl-polymer-galvanize)
-- [Web components with frameworks](https://blackat.github.io/slides/sl-custom-components-solutions)
+- <a href="https://blackat.github.io/slides/sl-head-first-angular-elements/index.html" target="_blank">Head first Angular Elements</a>
+- <a href="https://blackat.github.io/slides/sl-litelement-galvanize" target="_blank">LitElement introduction</a>
+- <a href="https://blackat.github.io/slides/sl-polymer-galvanize" target="_blank">Polymer introduction</a>
+- <a href="https://blackat.github.io/slides/sl-custom-components-solutions" target="_blank">Web components with frameworks</a>
+- <a href="https://blackat.github.io/slides/sl-litelement-galvanize" target="_blank">LitElement introduction</a>
 
 ## Others
 
-- [Maven](https://blackat.github.io/slides/sl-build-systems)
+- <a href="https://blackat.github.io/slides/sl-build-systems" target="_blank">Maven</a>
