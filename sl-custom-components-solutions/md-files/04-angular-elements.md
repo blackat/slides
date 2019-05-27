@@ -47,6 +47,7 @@ export class PocLibraryModule {
 - Remove `bootstrap` and add `entryComponent`.
 - Tweak the build to bundle the custom components.
 - Use what tranformed by `createCustomElement`.
+- <a href="../sl-head-first-angular-elements/" target="_blank">More...</a>
 
 <--->
 

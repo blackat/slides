@@ -1,6 +1,6 @@
 # Considerations
 
-- LitElements
+- **LitElements**
 
   - easy, fast, lightweight, ready to start
   - deserializers (default et customs)
@@ -10,7 +10,7 @@
 
 <--->
 
-- Vue
+- **Vue**
   - another framework to learn
   - painless web components bundle
   - component wrapper not a dev priority
@@ -19,7 +19,7 @@
 
 <--->
 
-- Elements
+- **Elements**
 
   - missing bundle library feature
   - Ivy's Elements wrapper should help
@@ -27,9 +27,9 @@
   - minimal Angular shipped with components
   - same compontent could be used in 2 manners (waiting)
 
-  <--->
+<--->
 
-  # References
+# References
 
 - [Nested Angular Elements](https://stackblitz.com/edit/nesting-angular-elements-example-g9kxmf)
 - [Angular Elements both methods](https://angular.io/guide/elements)

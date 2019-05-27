@@ -6,6 +6,7 @@
   - Templating, data-binding, attribute deserialization, property change observation.
   - Easier the standard Web Component.
   - Directly develop a custom element.
+  - <a href="../sl-litelement-galvanize/" target="_blank">More...</a>
 
 <--->
 
