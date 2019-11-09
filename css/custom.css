@@ -9,6 +9,14 @@ body {
   font-size: 3em;
 }
 
+.angular-logo-medium {
+  font-size: 1.2em;
+}
+
+.angular-logo-small {
+  font-size: 1em;
+}
+
 .reveal section img {
   background: none;
   border: none;
@@ -60,6 +68,37 @@ p > code, td > code, li > code {
     0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3),
     0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Fonts */
+.reveal h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.reveal h2 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.reveal h3 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.reveal li {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 100;
+}
+
+.reveal small {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 100;
 }
 
 /* Emoji */
