@@ -3,7 +3,7 @@
 > Why does Angular have a compiler at all?
 
 - The Angular compiler `ngc` turns the template into code to be executed by a browser.
-- [Deep dive into the Angular Compiler](https://www.youtube.com/watch?v=anphffaCZrQ&list=PLAw7NFdKKYpE-f-yMhP2WVmvTH2kBs00s&index=2)
+- Compile HTML templates into generated JavaScript code to build render and change detection at runtime.
 
 
 ## Declarative templates
