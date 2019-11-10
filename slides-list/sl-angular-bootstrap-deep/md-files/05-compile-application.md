@@ -21,7 +21,7 @@
 - *Angular compiler* produces `.ngfactories` files.
 - *Angular runtime* calls factories to instantiate components.
 1. `main.js`
-1. `app.module.ngfactory,js`
+1. `app.module.ngfactory.js`
 2. `app.component.ngfactories.js`
 
 - Factories are *imperative code*
@@ -50,10 +50,10 @@ var AppModuleNgFactory = i0.ocmf(i1.AppModule, [i2.AppComponent], function(_l) {
     ),
     ...
     i0.ompd(4608, i0.Compiler, i0.Compiler, []),
-    i0.ompd(4608, i5.DomSanitizer, i5.ɵDomSanitizerImpl, [i4.DOCUMENT]),
+    i0.ompd(4608, i5.DomSanitizer, i5.oDomSanitizerImpl, [i4.DOCUMENT]),
     i0.ompd(6144, i0.Sanitizer, null, [i5.DomSanitizer]),
     ...
-    i0.ompd(6144, i0.RendererFactory2, null, [i5.ɵDomRendererFactory2]),
+    i0.ompd(6144, i0.RendererFactory2, null, [i5.oDomRendererFactory2]),
   ]);
 }
 ```
