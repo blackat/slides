@@ -19,7 +19,7 @@ import {SOME_MODULES} from './some_module';
 - *Partial evaluation* compiler can *follow/evaluate* import references.
 
 
-## Something that does not even exist
+## Something that does not exist
 
 ```javascript
 import {SOME_MODULES} from './some_module';
@@ -60,7 +60,7 @@ SOME_MODULES: {
 ```
 
 - `SOME_MODULES` an object with 2 properties.
-- `DynamicValue` is an indicator to say *"cannot get past"*.
+- `DynamicValue` is an indicator to say *cannot get past*.
 
 
 ## Compilation goes on
@@ -77,6 +77,6 @@ import {SOME_MODULES} from './some_module'
 ```
 
 - Compilation
-  - goes on for `modules` properties
-  - but *do not work* for `viewportSize`, the value cannot figured out
+  - goes on for `modules` properties;
+  - *do not work* for `viewportSize`, the value cannot figured out;
   - an explicative error message is produced about styles.

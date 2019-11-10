@@ -5,7 +5,7 @@
   - has not type information;
   - ready to be executed in the browser.
 - `library.d.ts` type declaration file:
-  - describe the *interface*
+  - describe the *interface* or *public API*.
 
 
 ## Definition file
@@ -17,14 +17,15 @@ import {AwesomeLib} from 'awesome-lib';
 // use the lib
 ```
 
-- `library.d.ts` brings type information.
-- TypeScript can static type check.
+- `library.d.ts` brings *type information*.
 
 ```javascript
 declare class AwesomeLib {
     awesomeMethod(): string;
 }
 ```
+
+- TypeScript can static type check.
 
 
 ## <i class="fab fa-angular angular-logo-medium"></i> Compilation Model
@@ -40,7 +41,7 @@ export class AwesomeComponent {
 }
 ```
 
-Component definition file
+Component definition file (Ivy)
 
 ```javascript
 export declare class AwsomeComponent() {
@@ -64,9 +65,8 @@ export declare class AwsomeComponent() {
 
 ## Template checking
 
-- Compiler knows the component is an instance of what is in the library.
-
-app template uses component from library
+- Compiler knows the component is an *instance* of what is in the library.
+- Template uses component from library.
 
 ```html
 <awesome-comp [value]="a value">
@@ -74,15 +74,12 @@ app template uses component from library
 </awesome-comp>
 ```
 
-definition library
-
 ```javascript
-export declare class AwsomeComponent() {
+export declare class AwesomeComponent() {
     value: string;
     static ngComponentDef: ng.ComponentDef<
-        AwsomeComponent,
+        AwesomeComponent,
         `awesome-comp`,
-        {value: 'value'}
-    >;
+        {value: 'value'}>;
 }
 ```

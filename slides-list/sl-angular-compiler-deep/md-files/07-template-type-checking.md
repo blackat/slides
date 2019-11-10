@@ -7,7 +7,7 @@
 ```
 
 - Template are written in HTML.
-- Templates and expressions are transformed into *type check blocks*, blocks of TypeScript code.
+- Templates and expressions are transformed into **type check blocks**, blocks of TypeScript code.
 - Block are sent to TypeScript compiler.
 - Returned errors are presented in the context of the template.
 
@@ -27,6 +27,6 @@ fucntion typeCheckBlock(ctx: AppComponent) {
 }
 ```
 
-- Translated code plus offset comments.
-- Offesets allow to return teh error in the context of the HTML template.
+- Translated code plus *offset comments*.
+- Offsets allow to return the error in the context of the HTML template.
 - Ivy has improved the error contextualization even in external templates.

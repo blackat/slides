@@ -13,7 +13,7 @@ export class AppModule {}
 - Developer uses a selector from a library.
 - Compiler has to *uniquely* match the component.
 - `NgModule` holds component declarations usable in app templates.
-- *Module compilation scope* is this set of components.
+- **Module compilation scope** is this set of components.
 
 
 
